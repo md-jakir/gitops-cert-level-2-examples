@@ -6,8 +6,8 @@ metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: example=ghcr.io/md-jakir/gitops-cert-level-2-examples
     #argocd-image-updater.argoproj.io/image-list: example=ghcr.io/codefresh-contrib/gitops-cert-level-2-examples
-    #argocd-image-updater.argoproj.io/example.update-strategy: latest
-    argocd-image-updater.argoproj.io/image-list
+    argocd-image-updater.argoproj.io/example.update-strategy: latest
+    #argocd-image-updater.argoproj.io/image-list
 spec:
   project: default
 
